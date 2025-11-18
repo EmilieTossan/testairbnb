@@ -1,10 +1,13 @@
 [
 	{ 
 		"ville": "Paris",
-		"jours": 15,
+		"jours": 14,
 		"voyageurs": 2,
 		"filters" : {
 			"accomodationType": "Logement entier",
+			"pricePerNight": {
+				"min": 100
+			},
 			"rooms": {
 				"bedRoom": 2,
 				"bed" : 2,
@@ -25,7 +28,7 @@
 				"jacuzzi": true
 			}
 		},
-		"typeTest" : "regression"
+		"typeTest" : "nonregression"
 	},
 	{ 
 		"ville": "Niort",
@@ -33,6 +36,9 @@
 		"voyageurs": 1,
 		"filters" : {
 			"accomodationType": "Tous les types",
+			"pricePerNight": {
+				"max": 60
+			},
 			"equipments": {
 				"wifi": true,
 				"tv": true
