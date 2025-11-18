@@ -1,0 +1,43 @@
+[
+	{ 
+		"ville": "Paris",
+		"jours": 15,
+		"voyageurs": 2,
+		"filters" : {
+			"accomodationType": "Logement entier",
+			"rooms": {
+				"bedRoom": 2,
+				"bed" : 2,
+				"bathRoom" : 1
+			},
+			"equipments": {
+				"heating": true,
+				"kitchen": true,
+				"breakfast": true,
+				"wifi": true,
+				"tv": true,
+				"kingSizeBed": true,
+				"washingmachine": true,
+				"tumbleDryer": true,
+				"iron": true,
+				"hairDryer": true,
+				"gym": true,
+				"jacuzzi": true
+			}
+		},
+		"typeTest" : "regression"
+	},
+	{ 
+		"ville": "Niort",
+		"jours": 2,
+		"voyageurs": 1,
+		"filters" : {
+			"accomodationType": "Tous les types",
+			"equipments": {
+				"wifi": true,
+				"tv": true
+			}
+		},
+		"typeTest" : "smoke"
+	}
+]
